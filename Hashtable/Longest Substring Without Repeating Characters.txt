@@ -3,6 +3,8 @@ For example, the longest substring without repeating letters for "abcabcbb" is "
 
 Tags: Hashtable two pointers string
 
+O(n)
+
 1. 维护一个窗口， 右窗口一直移动到出现重复于hashset的字符位置为止
 2. 重新移动左窗口，直到找到出现与右窗口相同字符的位置，并不断更新hashset
 3. 下一次左窗口开始的位置将更新为导致重复字符的下一位开始
